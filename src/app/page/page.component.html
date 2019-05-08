@@ -1,0 +1,27 @@
+<div class="container">
+  <h1>GIT SEARCH</h1>
+    <h2>About This App:</h2>
+  <div class="well">
+  
+  </div>
+  
+  
+  <div class="row">
+    <div class="col-md-6">
+      <p appHighlight> User Name: {{user.login}}</p>
+  
+      <p> Followers:{{user.followers}} </p>
+      <p> Following: {{user.following}} </p>
+  
+    </div>
+    <div class="col-md-6">
+      <p>Repos: <a href="{{user.html_url }}" target="_blank">Repos</a></p>
+        <p class="avatar">  <img src ="{{user.avatar_url}}"> </p>
+    </div>
+  
+  
+  </div>
+  <button type="submit" name="Search repositories" id="button"><a routerLink='/name' routerLinkActive='active'>Search Repo</a></button>
+
+  
+  </div>

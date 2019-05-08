@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="jumbotron">
+          <h1>GIT SEARCH</h1>
+        </div>
+  
+      </div>
+      <div class="col-md-3">
+      <p appHighlight> User Name: {{user.login}}</p>
+  
+      <p> Followers:{{user.followers}} </p>
+      <p> Following: {{user.following}} </p>
+        </div>
+      <div class="col-md-3">
+        <p>Repos: <a href="{{user.html_url }}" target="_blank">Repos</a></p>
+          <p class="avatarimg">  <img src ="{{user.avatar_url}}" > </p>
+      </div>
+  
+  
+  
+    </div>
+  
+  
+        <div class="row" id="test-box">
+          <div class="col-md-4">
+            <form>
+                <div class="form-group">
+  
+                    <input type="text" required class="form-control" placeholder="enter repo" id="search" [(ngModel)]="username" name="username" (keyup)="locateUserProfile()">
+  
+                </div>
+  
+            </form>
+          </div>
+          <div class="col-md-6">
+  
+          </div>
+        </div>
+  
+  
+  <ng-progress></ng-progress>
+</div>  

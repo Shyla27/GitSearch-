@@ -1,0 +1,16 @@
+.avatar{
+    height: 380px;
+    width: 380px;
+    border-radius: 70%;
+    padding: 40px;
+  }
+  #button{
+    padding:15px;
+    margin-left: 40%;
+    margin-right: 40%;
+  
+    color: gray;
+  }
+  
+  
+  @import "~bootstrap/dist/css/bootstrap.css"

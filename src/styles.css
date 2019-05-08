@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: goldenrod;
+    padding: 50px;
+    align-content: center
+}
+av navbar-nav navbar-left{
+    font-size: 30px;
+  }   
+.col-md-6, .col-md-3{
+    font-size: 25px;
+  }
+  #search{
+    font-size: 25px;
+  }
+  #test-box{
+    background-color: whitesmoke;
+    width: 500px;
+    padding: 40px;
+    border: dotted;
+  }
+  @import "~bootstrap/dist/css/bootstrap.css";
